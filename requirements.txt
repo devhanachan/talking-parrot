@@ -1,4 +1,5 @@
-discord
+discord.py
 pydub
 edge_tts
 discord.py[voice]
+python-dotenv

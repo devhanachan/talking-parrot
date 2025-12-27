@@ -28,12 +28,13 @@ class voice(commands.Cog):
         await ch.connect()
         await i.followup.send(f" I'm in ! {i.user.mention}")
 
-        # play mp3
-        vc: VoiceClient = i.guild.voice_client
-        if vc and vc.is_playing(): #if any file in queue il stop it 
-            vc.stop()
         
-        ### have to remove this because no longer need
+### have to remove this because no longer need
+        # # play mp3
+        # vc: VoiceClient = i.guild.voice_client
+        # if vc and vc.is_playing(): #if any file in queue il stop it 
+        #     vc.stop()
+        
         # view = UIButtonspeakTest()
         # await i.followup.send(view=view)
 
