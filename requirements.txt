@@ -1,0 +1,4 @@
+discord
+pydub
+edge_tts
+discord.py[voice]
